@@ -1,0 +1,216 @@
+/*CSS Style sheet*/
+
+/* latin */
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0IT4ttDfA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Playfair Display SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Playfair Display SC Regular'), local('PlayfairDisplaySC-Regular'), url(https://fonts.gstatic.com/s/playfairdisplaysc/v7/ke85OhoaMkR6-hSn7kbHVoFf7ZfgMPr_lbkMEOE1I4o.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+h1 {
+color: black;
+font-size: 45px;
+font-family: Playfair Display SC;
+text-align: center;
+}
+
+h2 {
+  color: #515A5A;
+  font-size: 30px;
+  font-family: Playfair Display SC;
+}
+
+p {
+  color: #707B7C;
+  font-size: 20px;
+  font-family: Raleway;
+}
+
+.welcome {
+  text-align: center;
+}
+
+ul {
+  color: #707B7C;
+  font-size: 18px;
+  font-family: Raleway;
+}
+
+ol {
+  color: #707B7C;
+  font-size: 18px;
+  font-family: Raleway;
+}
+
+.linkedin {
+  font-family: Playfair Display SC;
+  font-size:20px;
+  color: black;
+  text-align: center;
+}
+
+header {
+  color: black;
+  font-size: 60px;
+  font-family: Playfair Display SC;
+  text-align: center;
+  background-image:url("https://ae01.alicdn.com/kf/HTB1SONhQVXXXXX_XVXXq6xXFXXXh/HUAYI-5x7ft-Vertical-Painting-Cactus-Backdrop-Art-Fabric-Photography-Prop-Newborn-Background-XT-5654.jpg_640x640.jpg");
+}
+
+
+#navigation a:hover {
+  color: pink;
+}
+
+#navigation a {
+  color:white;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+#navigation ul {
+  text-align: center;
+  margin: 0;
+  padding; 5px;
+  background-color: #707B7C;
+  color: white;
+  font-size: 22px;
+  font-family: Raleway;
+}
+
+#navigation li {
+  display: inline;
+}
+
+a {
+  color:grey;
+}
+
+a:hover {
+  color: Pink;
+}
+
+input[type=text]{
+  width: 300px;
+  padding: 6px 6px;
+  margin: 10px 0;
+  border: 2px solid #64B1B2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+input[type=email]{
+  width: 300px;
+  padding: 6px 6px;
+  margin: 10px 0;
+  border: 2px solid #64B1B2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+input[type=msg]{
+  width: 300px;
+  height: 300px;
+  padding: 6px 6px;
+  margin: 10px 0;
+  border: 2px solid #64B1B2;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+}
+
+.button [type=submit]{
+  font-family: raleway;
+  font-size: 16px;
+  width: 100px;
+  background-color: pink;
+  border: 2px solid grey;
+  color: white;
+  padding: 6px 6px;
+  margin: 6px 0;
+  cursor: pointer;
+}
+
+form {
+  font-family: raleway;
+  font-size: 22px;
+  text-align: center;
+}
+
+.column {
+  flex: 50%;
+  border: 2px solid #64B1B2;
+  padding: 3px 12px;
+  border-radius: 6px;
+  text-align: left;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+}
+
+.linkedin {
+  display: center;
+}
+
+.title {
+  font-size: 26px;
+  font-family: raleway;
+}
+
+.contact {
+  text-align: center;
+}
+
+#section {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.images {
+  display: flex;
+  justify-content: center;
+  min-width: 0;
+  margin: auto;
+}
+
+img {
+  box-shadow: 3px 3px 6px #64B1B2;
+  border-radius: 20px;
+  padding: 5px 5px;
+  width:  240px;
+  height: 400px;
+  }
+
+  .tab {
+    margin-left: 40px;
+  }
+
+  @media (max-width: 768px) {
+  .column {
+    width: auto; }
+  .row {
+    flex-wrap: wrap;  }
+  .images {
+    flex-wrap: wrap;
+  header {
+    background-image: url("https://ae01.alicdn.com/kf/HTB1SONhQVXXXXX_XVXXq6xXFXXXh/HUAYI-5x7ft-Vertical-Painting-Cactus-Backdrop-Art-Fabric-Photography-Prop-Newborn-Background-XT-5654.jpg_640x640.jpg");
+    background-size: 100;
+  }
+  }
+  }
